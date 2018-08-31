@@ -1,0 +1,88 @@
+.addOperation__container{
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.addOperation__validation{
+  text-align: center;
+  color: red;
+}
+
+.addOperation__form{
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.addOperation__category{
+  border: none;
+  background-color: $first;
+  border-radius: 10px;
+  font-size: 2em;
+  text-align: center;
+  width: 50%;
+  margin: 20px 0;
+  padding: 10px 0;
+  color: white;
+}
+
+.addOperation__comment{
+  border: none;
+  background-color: $second;
+  border-radius: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  width: 70%;
+  color: white;
+}
+
+.addOperation__amount{
+  border: none;
+  background-color: $third;
+  border-radius: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  width: 35%;
+  color: black;
+}
+
+.addOperation__date{
+  border: none;
+  border-radius: 10px;
+  background-color: $forth;
+  font-size: 1.2em;
+  text-align: center;
+  width: 35%;
+  color: white;
+}
+
+.addOperation__submit{
+  padding: 10px 5em;
+  background-color: mix($forth, blue);
+  color: white;
+  margin-top: 50px;
+  font-weight: 700;
+  border-radius: 20px;
+  border: none;
+}
+
+.addOperation__select{
+  padding: 10px 5em;
+  background-color: mix($third, blue);
+  border-radius: 20px;
+  border: none;
+}
+
+.addOperation__option-second{
+  background-color: lightgreen;
+}
+
+.addOperation__option-third{
+  background-color: lighten(red, 15%);
+}

@@ -1,0 +1,18 @@
+.accountBalance__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 75px);
+  color: white;
+  font-size: 50px;
+}
+
+.accountBalance__header{
+  border: none;
+  color: white;
+  background-color: mix($forth, blue);
+  border-radius: 15px 60px;
+  padding: 0 20px;
+  text-align: center;
+  font-weight: 700;
+}

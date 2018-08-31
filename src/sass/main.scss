@@ -1,0 +1,74 @@
+//Colors:
+$first: #7f9eb2;
+$second: #77919d;
+$third: #dae9f4;
+$forth: #274c5e;
+
+@import "addOperation";
+@import "operationHistory";
+@import "filters";
+@import "loader";
+@import "charts";
+@import "accountBalance";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+select{
+  outline: 0;
+}
+
+input{
+  outline: 0;
+  transition: 0.3s;
+  &:focus{
+    background-color: red;
+  }
+}
+
+button{
+  outline: 0;
+  transition: 0.2s;
+  &:active{
+    background-color: red;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+#app{
+  font-family: 'Roboto', sans-serif;
+  background: lightgray;
+  background: mix($first, $third) url("../../images/money_background.jpeg") no-repeat left top;
+  height: 100%;
+}
+
+.container{
+  margin: 0 auto;
+  height: calc(100vh - 75px);
+
+}
+
+.menu{
+  background: mix($third, blue);
+  list-style-type: none;
+  display:  flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+.menu__link{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 20px 30px;
+}
+
+.menu__link:hover{
+  color: red;
+  text-decoration: none;
+}
+
