@@ -36,15 +36,15 @@ class Menu extends React.Component {
                 <div>
                     <ul className={"menu"}>
                         <li className={"menu__item"}><NavLink to={"/"} className={"menu__link"}
-                                                              activeStyle={{color: "red"}}>Dodaj operację</NavLink>
+                                                              activeStyle={{color: "navy"}}>Dodaj operację</NavLink>
                         </li>
                         <li className={"menu__item"}><NavLink to={"/operation_history"} className={"menu__link"}
-                                                              activeStyle={{color: "red"}}>Historia operacji</NavLink>
+                                                              activeStyle={{color: "navy"}}>Historia operacji</NavLink>
                         </li>
                         <li className={"menu__item"}><NavLink to={"/account_balance"} className={"menu__link"}
-                                                              activeStyle={{color: "red"}}>Stan konta</NavLink></li>
+                                                              activeStyle={{color: "navy"}}>Stan konta</NavLink></li>
                         <li className={"menu__item"}><NavLink to={"/charts"} className={"menu__link"}
-                                                              activeStyle={{color: "red"}}>Wykresy</NavLink></li>
+                                                              activeStyle={{color: "navy"}}>Wykresy</NavLink></li>
                     </ul>
                     <Switch>
                         <Route exact path='/' component={OperationAdd}/>
