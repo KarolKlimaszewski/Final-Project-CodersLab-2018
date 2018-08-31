@@ -136,8 +136,6 @@ class OperationHistory extends React.Component {
                     // console.log(new Date(el.date))
 
                     return new Date(el.date).getTime() >= new Date(this.state.dateFiltered.startDate).getTime() && new Date(el.date).getTime() < new Date(this.state.dateFiltered.endDate).getTime()
-
-
                 }
                 return el;
             })

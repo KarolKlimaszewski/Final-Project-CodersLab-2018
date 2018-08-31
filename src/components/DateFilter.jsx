@@ -24,10 +24,12 @@ export default class DateFilter extends React.Component {
 
     handleSetDateFilter = (event) => {
         if(typeof this.props.passTo === 'function') {
-            this.props.passTo({
-                'startDate': this.state.startDate,
-                'endDate' : this.state.endDate
-            });
+            if (this.state.startDate !== "" && this.state.endDate !== "") {
+                this.props.passTo({
+                    'startDate': this.state.startDate,
+                    'endDate': this.state.endDate
+                });
+            }
         }
         this.setState({
             startDate: "",
