@@ -43,6 +43,7 @@ button{
   font-family: 'Roboto', sans-serif;
   background: lightgray;
   background: mix($first, $third) url("../../images/money_background.jpeg") no-repeat left top;
+  background-size: cover;
   height: 100%;
 }
 
