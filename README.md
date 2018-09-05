@@ -9,7 +9,7 @@ each operation from history. Database is handled with Firebase.
 In the future, i want to add some additional filters, sorting and login for users, to let each user have own history of operations.
 I want also to learn Redux and add it to this app.
 
-#####Demo: https://karolklimaszewski.github.io/Final-Project-CodersLab-2018/dist/
+### Demo: https://karolklimaszewski.github.io/Final-Project-CodersLab-2018/dist/
 
 ## Installing Instructions
 
