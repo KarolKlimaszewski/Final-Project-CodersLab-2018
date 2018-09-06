@@ -5,15 +5,26 @@
   justify-content: center;
 }
 
+.addOperation__validation-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
 .addOperation__validation{
   text-align: center;
   color: red;
+  font-size: 2em;
+  margin: 5px 0;
+  font-weight: 700;
+  width: 20em;
 }
 
 .addOperation__form{
   max-width: 1200px;
   margin: 0 auto;
-  height: 80vh;
+  height: calc(80vh - 190px);
   display: flex;
   flex-direction: column;
   align-items: center;
